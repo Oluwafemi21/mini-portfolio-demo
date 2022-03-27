@@ -33,6 +33,10 @@ main{
     max-width: max-content;
 }
 
+.text-box:last-child{
+    border-radius: var(--typing) !important;
+}
+
 .loader{
     display: flex;
     align-items: center;
