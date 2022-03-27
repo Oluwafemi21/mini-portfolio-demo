@@ -6,6 +6,7 @@ boxes.forEach(box => {
     box.addEventListener('animationend',()=>{
         loader.forEach(loader => { loader.classList.toggle('hidden')});
         texts.forEach(text => { text.classList.toggle('hidden')});
+        box.style.borderRadius = "var(--typed)";
     });
 })
 
